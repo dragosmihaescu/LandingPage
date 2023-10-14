@@ -33,12 +33,9 @@ body {
 
 }
 
-
-
 .nav img {
     width: 100px;
     height: auto;
-    padding: 10px;
 }
 
 .inner-section {
@@ -86,4 +83,39 @@ body {
     height: auto;
     background-size:cover;
     border: 1px solid rgb(238, 201, 201);
+    border-radius:10px;
 }
+
+#cats h1 {
+    text-align: center;
+    padding:30px;
+}
+
+.cats-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom:30px;
+
+}
+
+
+.cats-section img {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid rgb(238, 201, 201);
+    border-radius:10px;
+}
+
+.cats-section img:hover{
+    transition:.3s ease;
+    border: 1px solid rgb(86, 11, 11);
+    border-radius:10px;
+}
+.cats-section div {
+    display: block;
+    text-align: center;
+}
+
+
